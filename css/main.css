@@ -9,7 +9,9 @@ body {
 
 .title
 {
-	max-width: 1700px;
+	width: 1700px;
+	height: 10px;
+	color: red;
 	margin: auto;
 	display: flex;
 	flex-direction: row;
@@ -35,14 +37,14 @@ body {
 	text-align: justify;
 }
 
-.charts p
+/*.charts p
 {
 	font-size: 30px;
 	margin-top: 50px;
 	font-weight: bold;
 	color: red;
-	text-align: justify;
-}
+	text-align: justify;*/
+/*}*/
 
 .firstbar
 {
@@ -83,7 +85,7 @@ body {
 .firstline 
 {
 	max-width: 200px;
-	margin-left: 400px;
+	margin-left: 700px;
 	
 	flex-direction: row;
 	justify-content: flex-end;
@@ -91,6 +93,41 @@ body {
 }
 
 .linetext p
+{
+	font-size: 20px;
+	margin-left: -300px;
+	margin-top: 5px;
+	text-align: center;
+	background-color: #D1FFFF;
+	padding: 2px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+
+}
+
+.pieone
+
+{
+	width: 400px;
+	height: auto;
+	margin-left: -300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 50px;
+}
+.firstpie 
+{
+	max-width: 200px;
+	margin-left: 700px;
+	
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-top: 100px;
+}
+
+.pieonetext p
 {
 	font-size: 20px;
 	margin-left: -300px;
@@ -116,10 +153,11 @@ body {
 	margin-top: 50px;
 }
 
+
 .secondline 
 {
 	max-width: 200px;
-	margin-left: 800px;
+	margin-left: 1200px;
 	
 	flex-direction: row-reverse;
 	justify-content: flex-end;
@@ -150,3 +188,76 @@ body {
 	justify-content: flex-end;
 	margin-top: 50px;
 }
+.secondpie 
+{
+	max-width: 200px;
+	margin-left: 1200px;
+	
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+	margin-top: -455px;
+}
+
+.pietwotext p
+{
+	font-size: 20px;
+	margin-right: -300px;
+	margin-top: 5px;
+	text-align: center;
+	background-color: #D1FFFF;
+	padding: 2px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+
+}
+
+.pietwo
+
+{
+	max-width: 400px;
+	margin-right: -300px;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+	margin-top: 50px;
+}
+
+.thirdpie
+{
+	max-width: 500px;
+	margin: auto;
+	
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.piethree
+{
+	max-width: 400px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 90px;
+
+
+}
+
+.piethreetext
+{
+	font-size: 20px;
+	margin-left: 50px;
+	margin-top: 5px;
+	text-align: center;
+	background-color: #D1FFFF;
+	padding: 2px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+
+}
+
+
+
