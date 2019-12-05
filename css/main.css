@@ -1,3 +1,152 @@
 @charset "UTF=8";
 
-body {}
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background-image: 
+}
+
+/*---Header open---*/
+
+.title
+{
+	max-width: 1700px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+/*---Header close---*/
+
+/*---main open---*/
+
+.intro, .charts
+{
+	max-width: 1700px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.intro p
+{
+	font-size: 25px;
+	margin-top: 25px;
+	text-align: justify;
+}
+
+.charts p
+{
+	font-size: 30px;
+	margin-top: 50px;
+	font-weight: bold;
+	color: red;
+	text-align: justify;
+}
+
+.firstbar
+{
+	max-width: 500px;
+	margin: auto;
+	
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.bar
+{
+	max-width: 400px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 90px;
+
+
+}
+
+.bartext
+{
+	font-size: 20px;
+	margin-left: 50px;
+	margin-top: 5px;
+	text-align: center;
+	background-color: #D1FFFF;
+	padding: 2px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+
+}
+
+.firstline 
+{
+	max-width: 200px;
+	margin-left: 400px;
+	
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-top: 100px;
+}
+
+.linetext p
+{
+	font-size: 20px;
+	margin-left: -300px;
+	margin-top: 5px;
+	text-align: center;
+	background-color: #D1FFFF;
+	padding: 2px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+
+}
+
+.line
+
+{
+	width: 400px;
+	height: auto;
+	margin-left: -300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 50px;
+}
+
+.secondline 
+{
+	max-width: 200px;
+	margin-left: 800px;
+	
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+	margin-top: -455px;
+}
+
+.linetwotext p
+{
+	font-size: 20px;
+	margin-right: -300px;
+	margin-top: 5px;
+	text-align: center;
+	background-color: #D1FFFF;
+	padding: 2px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+
+}
+
+.linetwo
+
+{
+	max-width: 400px;
+	margin-right: -300px;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+	margin-top: 50px;
+}
